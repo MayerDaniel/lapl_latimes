@@ -1,0 +1,49 @@
+{
+    "filename" : "La Times",
+    "title" : "La Times",
+    "authors" : [
+        {
+            "name" : "LA Times",
+            "sort" : "LA Times"
+        }
+    ],
+    "cover" : "images/cover.jpeg",
+    "rights" : "Public Domain",
+    "publisher" : "https://www.latimes.com/",
+    "language" : "eng",
+    "subjects" : [ "News" ],
+    "contributors" : [
+        {
+            "name" : "LA Times",
+            "role" : "publisher"
+        }
+    ],
+    "identifier" : {
+        "scheme" : "URL",
+        "value" : "https://www.latimes.com/"
+    },
+    "contents" : [
+        {
+            "type" : "toc",
+            "source" : "toc.html"
+        },
+        {
+            "type" : "text",
+            "source" : "news*.html"
+        }
+    ],
+    "toc" : {
+        "depth" : 2,
+        "parse" : [ "text" ],
+        "generate" : {
+            "title" : "Index"
+        }
+    },
+    "guide" : [
+        {
+            "type" : "toc",
+            "title" : "Index",
+            "href" : "toc.html"
+        }
+    ]
+}
